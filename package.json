@@ -1,0 +1,29 @@
+{
+  "name": "testing-and-debugging-ensuring-mern-app-reliability-puritized",
+  "version": "1.0.0",
+  "description": "This assignment focuses on implementing comprehensive testing strategies for a MERN stack application, including unit testing, integration testing, and end-to-end testing, along with debugging techniques.",
+  "main": "jest.config.js",
+  "scripts": {
+    "start": "npm --prefix server start",
+    "start:dev": "concurrently \"npm --prefix server run dev\" \"npm --prefix client start\"",
+    "install-all": "npm --prefix server install && npm --prefix client install",
+    "test:e2e": "cypress run",
+    "test:e2e:open": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PLP-MERN-Stack-Development/testing-and-debugging-ensuring-mern-app-reliability-Puritized.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PLP-MERN-Stack-Development/testing-and-debugging-ensuring-mern-app-reliability-Puritized/issues"
+  },
+  "homepage": "https://github.com/PLP-MERN-Stack-Development/testing-and-debugging-ensuring-mern-app-reliability-Puritized#readme",
+  "devDependencies": {
+    "cypress": "^15.6.0"
+  }
+}
